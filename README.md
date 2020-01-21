@@ -27,11 +27,10 @@ android {
     }
     ...
 }
-
+```
 
 ## Paso 2: Dar permisos a la aplicación
-Para poder realizar conexiones con servidores deberemos darle permisos a la aplicación. Para ello se debe añadir la siguiente línea 
-en el fichero _AndrodManifest.xml_:
+Para poder realizar conexiones con servidores deberemos darle permisos a la aplicación. Para ello se debe añadir la siguiente línea en el fichero _AndrodManifest.xml_:
 ```
 <uses-permission android:name="android.permission.INTERNET"/>
 ```
